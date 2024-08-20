@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Dom , Events , functions</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Exercise DOM , Events , Functions - JN</h1>
+    <!--
+    1. Form: names , lastnames , age
+    2. Button: submit
+    3. Show the data on the screen
+    4. Show the data on the screen when the button is clicked
+    5. Validate the form 
+    -->
+    <div class = "box">
+    <form action = "#" method = "POST" id = "Formularie" onsubmit ="return false;">
+        <label for = "name">Name: </label>
+        <input type = "text" name = "name" id = "name" />
+        <span id = "errorname"> </span>
+
+        <label for = "lastname">Lastname: </label>
+        <input type = "text" name = "lastname" id = "lastname" />
+        
+        <label for = "age">Age: </label>
+        <input type = "number" name = "age" id = "age" />
+        <input type = "submit" value = "submit" id = "submit"/ > 
+        </form>
+    </form>
+    </div>
+</br>
+    <div id = "box_dashed">
+        <h2>Data</h2>
+    </div>
+    <script type = "text/Javascript" src = "/js/dom.js"> </script>
+</body>
+</html>
